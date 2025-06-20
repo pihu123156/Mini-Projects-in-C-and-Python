@@ -19,7 +19,7 @@ def factorial(n):
 
 def calculator():
     while True:
-        print("\n📟 Calculator Menu:")
+        print("\n Calculator Menu:")
         print("1. Add")
         print("2. Subtract")
         print("3. Multiply")
@@ -32,7 +32,7 @@ def calculator():
         choice = input("Select operation (0-7): ")
 
         if choice == '0':
-            print("👋 Exiting calculator. Goodbye!")
+            print(" Exiting calculator. Goodbye!")
             break
 
         if choice in ['1', '2', '3', '4', '5']:
@@ -40,7 +40,7 @@ def calculator():
                 a = float(input("Enter first number: "))
                 b = float(input("Enter second number: "))
             except ValueError:
-                print("❌ Invalid input. Please enter numeric values.")
+                print(" Invalid input. Please enter numeric values.")
                 continue
 
             if choice == '1':
@@ -59,15 +59,15 @@ def calculator():
                 a = float(input("Enter number: "))
                 print("Result:", sqrt(a))
             except ValueError:
-                print("❌ Invalid input.")
+                print(" Invalid input.")
         elif choice == '7':
             try:
                 n = int(input("Enter integer number: "))
                 print("Result:", factorial(n))
             except ValueError:
-                print("❌ Invalid input. Enter a whole number.")
+                print(" Invalid input. Enter a whole number.")
         else:
-            print("❌ Invalid choice. Please choose a valid option.")
+            print(" Invalid choice. Please choose a valid option.")
 
 
 calculator()
