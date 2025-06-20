@@ -38,13 +38,13 @@ def main():
         choice = input("Choose an option (0-8): ")
 
         if choice == '0':
-            print("👋 Goodbye!")
+            print(" Goodbye!")
             break
 
         try:
             value = float(input("Enter value to convert: "))
         except ValueError:
-            print("❌ Invalid input. Please enter a number.")
+            print(" Invalid input. Please enter a number.")
             continue
 
         if choice == '1':
@@ -64,7 +64,7 @@ def main():
         elif choice == '8':
             print(f"📏 Result: {feet_to_meters(value):.2f} m")
         else:
-            print("❌ Invalid choice. Try again.")
+            print(" Invalid choice. Try again.")
 
 
 main()
