@@ -35,9 +35,5 @@ From fun games like **Tic-Tac-Toe** to real applications like **Face Recognition
 
 ---
 
-## 🚀 How to Run
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/10-Beginner-Projects-Python-C.git
-   cd 10-Beginner-Projects-Python-C
+
