@@ -1,4 +1,4 @@
-# 💻 10 Beginner Projects in Python & C
+# Mini-Projects-in-C-and-Python
 
 Welcome! This repository contains **10 beginner-friendly mini projects** developed using **Python** and **C**, designed to strengthen your core programming skills through real-world, hands-on practice.
 
@@ -33,9 +33,4 @@ From fun games like **Tic-Tac-Toe** to real applications like **Face Recognition
 
 ---
 
-## 🚀 How to Run
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/10-Beginner-Projects-Python-C.git
-   cd 10-Beginner-Projects-Python-C
