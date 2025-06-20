@@ -12,7 +12,7 @@ def add_expense():
     try:
         amount = float(input("Enter amount: "))
     except ValueError:
-        print("❌ Invalid amount.")
+        print(" Invalid amount.")
         return
 
     with open(FILENAME, "a", newline="") as f:
@@ -60,7 +60,7 @@ def show_summary(period="monthly"):
 
 def main():
     while True:
-        print("\n📒 Personal Expense Tracker")
+        print("\n Personal Expense Tracker")
         print("1. Add Expense")
         print("2. Daily Summary")
         print("3. Weekly Summary")
@@ -77,10 +77,10 @@ def main():
         elif choice == '4':
             show_summary("monthly")
         elif choice == '5':
-            print("👋 Goodbye!")
+            print(" Goodbye!")
             break
         else:
-            print("❌ Invalid option. Try again.")
+            print(" Invalid option. Try again.")
 
 
 if __name__ == "__main__":
