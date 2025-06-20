@@ -10,17 +10,16 @@ From fun games like **Tic-Tac-Toe** to real applications like **Face Recognition
 ## 📚 Table of Contents
 
 | #   | Project Name                   | Language | Description                                      |
-|-----|--------------------------------|----------|--------------------------------------------------|
-| 1   | Tic-Tac-Toe Game               | Python   | CLI game with unbeatable AI (Minimax algorithm) |
-| 2   | Student Gradebook System       | C        | Input marks, calculate grade, find topper       |
-| 3   | Python Calculator              | Python   | CLI calculator with basic + advanced ops        |
-| 4   | Daily Task Tracker             | Python   | To-do list with save/load via file              |
-| 5   | Bank Management System         | C        | Deposit, withdraw, balance, file I/O            |
-| 6   | Simple Quiz App                | Python   | Multiple-choice quiz from CSV/JSON              |
-| 7   | BMI Calculator (GUI)           | Python   | Tkinter-based GUI BMI calculator                |
-| 8   | Unit & Temperature Converter   | Python   | Convert units like °C/°F, cm/inch, etc.         |
-| 9   | Personal Expense Tracker       | Python   | Track expenses, show summaries                  |
-| 10  | Guess the Number Game          | Python   | Fun number guessing game with difficulty levels |
+
+| 1   | Student Gradebook System       | C        | Input marks, calculate grade, find topper       |
+| 2   | Python Calculator              | Python   | CLI calculator with basic + advanced ops        |
+| 3   | Daily Task Tracker             | Python   | To-do list with save/load via file              |
+| 4   | Bank Management System         | C        | Deposit, withdraw, balance, file I/O            |
+| 5   | Simple Quiz App                | Python   | Multiple-choice quiz from CSV/JSON              |
+| 6   | BMI Calculator (GUI)           | Python   | Tkinter-based GUI BMI calculator                |
+| 7   | Unit & Temperature Converter   | Python   | Convert units like °C/°F, cm/inch, etc.         |
+| 8   | Personal Expense Tracker       | Python   | Track expenses, show summaries                  |
+| 9  | Guess the Number Game          | Python   | Fun number guessing game with difficulty levels |
 
 ---
 
