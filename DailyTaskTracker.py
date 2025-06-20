@@ -17,18 +17,18 @@ def display_tasks(tasks):
     if not tasks:
         print("📭 No tasks yet.")
         return
-    print("\n📋 Your Tasks:")
+    print("\n Your Tasks:")
     for i, task in enumerate(tasks, start=1):
-        status = "✅ Done" if task["done"] else "❌ Not Done"
+        status = " Done" if task["done"] else " Not Done"
         print(f"{i}. {task['task']} [{status}]")
 
 def add_task(tasks):
     task_text = input("Enter new task: ").strip()
     if task_text:
         tasks.append({"task": task_text, "done": False})
-        print("✅ Task added.")
+        print(" Task added.")
     else:
-        print("❌ Empty task not added.")
+        print(" Empty task not added.")
 
 def mark_done(tasks):
     display_tasks(tasks)
@@ -36,16 +36,16 @@ def mark_done(tasks):
         num = int(input("Enter task number to mark as done: "))
         if 1 <= num <= len(tasks):
             tasks[num - 1]["done"] = True
-            print("✅ Task marked as done.")
+            print(" Task marked as done.")
         else:
-            print("❌ Invalid task number.")
+            print(" Invalid task number.")
     except ValueError:
-        print("❌ Please enter a valid number.")
+        print(" Please enter a valid number.")
 
 def main():
     tasks = load_tasks()
     while True:
-        print("\n📅 Daily Task Tracker Menu:")
+        print("\n Daily Task Tracker Menu:")
         print("1. View Tasks")
         print("2. Add Task")
         print("3. Mark Task as Done")
@@ -64,7 +64,7 @@ def main():
             print("📁 Tasks saved. Goodbye!")
             break
         else:
-            print("❌ Invalid choice. Try again.")
+            print(" Invalid choice. Try again.")
 
 
 main()
