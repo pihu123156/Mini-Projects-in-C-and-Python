@@ -15,7 +15,7 @@ def choose_difficulty():
         elif level == '3':
             return 100
         else:
-            print("❌ Invalid input. Try again.")
+            print(" Invalid input. Try again.")
 
 def play_game():
     high_score = None
@@ -32,23 +32,23 @@ def play_game():
                 guess = int(input("Your guess: "))
                 attempts += 1
                 if guess < number:
-                    print("🔻 Too low!")
+                    print(" Too low!")
                 elif guess > number:
-                    print("🔺 Too high!")
+                    print(" Too high!")
                 else:
-                    print(f"🎉 Correct! You guessed it in {attempts} tries.")
+                    print(f" Correct! You guessed it in {attempts} tries.")
                     if high_score is None or attempts < high_score:
                         high_score = attempts
-                        print("🏆 New high score!")
+                        print(" New high score!")
                     else:
-                        print(f"⭐ High score to beat: {high_score} tries")
+                        print(f" High score to beat: {high_score} tries")
                     break
             except ValueError:
-                print("❌ Please enter a valid number.")
+                print(" Please enter a valid number.")
 
         again = input("\nPlay again? (y/n): ").lower()
         if again != 'y':
-            print("👋 Thanks for playing!")
+            print(" Thanks for playing!")
             break
 
 
